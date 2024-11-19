@@ -1,0 +1,5 @@
+# Redirect with a 301
+/speak          https://speaker.kevinjmosley.com              301
+/speaks         https://speaker.kevinjmosley.com              301
+/speaker        https://speaker.kevinjmosley.com              301
+/speech         https://speaker.kevinjmosley.com              301
