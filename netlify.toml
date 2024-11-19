@@ -1,0 +1,23 @@
+# Redirect with a 301
+[[redirects]]
+from = "/speak"
+to = "https://speaker.kevinjmosley.com"
+status = 301
+
+# Redirect with a 301
+[[redirects]]
+from = "/speaks"
+to = "https://speaker.kevinjmosley.com"
+status = 301
+
+# Redirect with a 301
+[[redirects]]
+from = "/speaker"
+to = "https://speaker.kevinjmosley.com"
+status = 301
+
+# Redirect with a 301
+[[redirects]]
+from = "/speech"
+to = "https://speaker.kevinjmosley.com"
+status = 301
