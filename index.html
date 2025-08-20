@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Kevin J Mosley Portfolio | Senior Full Stack E-Commerce Developer</title>
+    <title>
+      Kevin J Mosley Portfolio | Senior Full Stack E-Commerce Developer
+    </title>
     <meta name="description" content="" />
     <meta
       name="viewport"
@@ -26,6 +28,11 @@
     <link rel="stylesheet" href="assets/css/plugins/plugins.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+  <style>
+    ul.brand-style li:hover img {
+      filter: none !important;
+    }
+  </style>
 
   <body>
     <div class="main-page">
@@ -92,7 +99,9 @@
                     <a href="#contact">Contact</a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://kevinjmosley.com/speak">Book Me To Speak</a>
+                    <a target="_blank" href="https://kevinjmosley.com/speak"
+                      >Book Me To Speak</a
+                    >
                   </li>
                 </ul>
               </nav>
@@ -328,7 +337,7 @@
                                   >
                                 </a>
                                 <a>
-                                  <span>Dec 2018 - Present</span>
+                                  <span>Dec 2019 - Present</span>
                                 </a>
                               </li>
                               <li>
@@ -337,7 +346,7 @@
                                   <span>Shogun · Full-time</span>
                                 </a>
                                 <a>
-                                  <span>Sep 2024 - Present</span>
+                                  <span>Sep 2024 - Sep 2025</span>
                                 </a>
                               </li>
                               <li>
@@ -390,6 +399,15 @@
                         >
                           <div class="single-tab-content">
                             <ul>
+                              <li>
+                                <a>Southern New Hampshire University</a>
+                                <a>
+                                  <span>Cybersecurity Certificate </span>
+                                </a>
+                                <a>
+                                  <span>2025-2025</span>
+                                </a>
+                              </li>
                               <li>
                                 <a>General Assembly</a>
                                 <a>
@@ -453,13 +471,13 @@
                 <ul class="brand-style">
                   <li>
                     <img
-                      src="assets/images/brand/logo-cue-black.svg"
+                      src="assets/images/brand/champs-logo.png"
                       alt="Logo Images"
                     />
                   </li>
                   <li>
                     <img
-                      src="assets/images/brand/gc-logo-dark-removebg-preview.png"
+                      src="assets/images/brand/cps-logo_blue.png"
                       alt="Logo Images"
                     />
                   </li>
@@ -551,9 +569,7 @@
                   <div class="content">
                     <div class="inner">
                       <p>HTML/CSS Landing Page Development</p>
-                      <h4>
-                        Kevin J Mosley - Int'l Motivational Speaker
-                      </h4>
+                      <h4>Kevin J Mosley - Int'l Motivational Speaker</h4>
                       <div class="portfolio-button">
                         <a
                           class="rn-btn"
@@ -707,8 +723,8 @@
               <div class="inner text-lg-end text-center mt_md--20 mt_sm--20">
                 <div class="text">
                   <p>
-                    © 2024 Kevin J Mosley - Senior Full Stack E-Commerce
-                    Developer
+                    © <span id="year"></span> Kevin J Mosley - Senior Full Stack
+                    E-Commerce Developer
                   </p>
                 </div>
               </div>
@@ -718,6 +734,11 @@
       </div>
       <!-- End Footer Style Two  -->
     </div>
+    <script>
+      const date = new Date();
+      const el = document.querySelector("#year");
+      el.innerHTML = date.getFullYear();
+    </script>
 
     <!-- JS
 ============================================ -->

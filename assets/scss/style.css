@@ -11739,7 +11739,7 @@ ul.brand-style li:hover {
 }
 ul.brand-style li:hover img {
   opacity: 1;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 ul.brand-style.branstyle--2 li {
   flex-basis: 33.33%;
